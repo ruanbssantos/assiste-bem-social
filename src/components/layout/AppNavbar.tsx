@@ -23,9 +23,9 @@ export function AppNavbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-card border-b border-border">
       <div className="flex h-16 items-center justify-between px-4">
-        <div className="flex items-center gap-2">
-          <SidebarTrigger className="md:hidden" />
-          <div className="hidden md:block">
+        <div className="flex items-center gap-4">
+          <SidebarTrigger />
+          <div className="hidden sm:block">
             <h1 className="text-lg font-semibold text-foreground">
               Sistema de Assistência Social
             </h1>

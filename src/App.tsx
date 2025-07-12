@@ -13,6 +13,7 @@ import { BeneficiarioDetails } from "./pages/beneficiarios/BeneficiarioDetails";
 import { Atendimentos } from "./pages/Atendimentos";
 import { Agendamentos } from "./pages/Agendamentos";
 import { Relatorios } from "./pages/Relatorios";
+import { Configuracoes } from "./pages/Configuracoes";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -64,6 +65,7 @@ const App = () => (
               <Route path="atendimentos" element={<Atendimentos />} />
               <Route path="agendamentos" element={<Agendamentos />} />
               <Route path="relatorios" element={<Relatorios />} />
+              <Route path="configuracoes" element={<Configuracoes />} />
             </Route>
             
             {/* Rota 404 */}
